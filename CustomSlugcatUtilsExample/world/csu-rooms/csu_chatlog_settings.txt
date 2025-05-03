@@ -1,0 +1,3 @@
+Template: NONE
+DangerType: None
+PlacedObjects: CustomChatlogToken><354.1488><302.8664><-75~-154~0~0~b4_chatlog1, 

@@ -1,0 +1,93 @@
+{
+	"id": "Prototype",
+	"name": "The Prototype",
+	"description": "A recolored copy of The Survivor that demonstrates some custom SlugBase features.<LINE>This is a template mod for SlugBase.",
+	"features": {
+		"color": "9cf0a4",
+
+		"select_menu_scene": "Slugcat_Prototype",
+		"select_menu_scene_ascended": "Ghost_Prototype",
+
+		"start_room": "CSU_Spawn",
+
+		"spawn_pos": [ 20, 12 ],
+
+		"custom_grabability": [
+			{
+				"type": "Spider",
+				"grabability": "OneHand"
+			},
+			{
+				"type": "Oracle",
+				"grabability": "OneHand"
+			}
+		],
+
+		"custom_edibles": [
+			{
+				"forbidden_type": "DangleFruit"
+			},
+			{
+				"type": "DataPearl",
+				"food_point": 1.25
+			},
+			{
+				"type": "Oracle",
+				"food_point": 1.25
+			},
+			{
+				"type": "Spider",
+				"food_point": 1.25
+			}
+		],
+
+		"cycle_limited": 10,
+		"cycle_limited_force": true,
+		"select_menu_scene_cycle_end": "Ghost_Red",
+
+		"can_craft_single": true,
+		"craft": [
+			{
+				"craft_items": [
+					{
+						"type": "Spear",
+						"data": 0
+					}
+				],
+				"craft_cost": 1,
+				"craft_result": {
+					"type": "Spear",
+					"data": 1
+				}
+			},
+
+			{
+				"craft_items": [
+					{
+						"type": "Spear"
+					},
+					{
+						"type": "Rock"
+					}
+				],
+				"craft_cost": 1,
+				"craft_result": {
+					"type": "Singularitybomb"
+				}
+			}
+		],
+
+		"guide_overseer": 3,
+		"guide_overseer_color": "FFFFFF",
+		"guide_region_priority": [ "CSU", "B4", "GW", "SL" ],
+		"guide_overseer_symbol": 1,
+		"guide_overseer_symbol_custom": "atlas/Barnacle",
+		"guide_room_in_region": [
+			[ "CSU", "CSU_Chatlog" ],
+			[ "SU", "SU_S03" ],
+			[ "SL", "SL_AI" ]
+		],
+		
+		"lock_ascended_force": true
+	}
+}

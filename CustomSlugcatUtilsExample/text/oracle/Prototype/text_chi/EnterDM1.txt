@@ -1,0 +1,12 @@
+SP|turnoff
+SP|gravity|1
+SP|work|0
+哦你好，小家伙|30
+SP|turnon
+SP|work|1
+SP|gravity|0
+SP|panic
+如你所见|30
+这里的重力时断时续
+SP|resync
+如果没有什么其他事的话<LINE>你现在可以离开了|30

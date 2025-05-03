@@ -1,0 +1,10 @@
+{
+	"id": "CustomSlugcatUtilsExample",
+	"name": "Custom Slugcat Utils Example",
+	"authors": "NR",
+	"description": "Just exampleeeeeeeeeee",
+	"version":"1.0.0",
+	"requirements": [ "CustomSlugcatUtils" ],
+	"requirements_names": [ "Custom Slugcat Utils" ],
+	"checksum_override_version": false
+}

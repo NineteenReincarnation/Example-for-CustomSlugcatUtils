@@ -1,0 +1,3 @@
+【未知 - 私聊】 白矮双星， 四维交错
+<#91c3fe>BWD：你发现在没有读取到对应语言txt的时候就会播放这个。
+<#91c3fe>BWD：You’ll find that this plays when the corresponding language .txt file is not found.

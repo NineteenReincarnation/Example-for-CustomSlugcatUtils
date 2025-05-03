@@ -1,0 +1,14 @@
+batDepleteCyclesMin: 1
+batDepleteCyclesMax: 2
+batsPerActiveSwarmRoom: 10
+batsPerInactiveSwarmRoom: 2
+overseersSpawnChance: 1
+overseersMin: 3
+overseersMax: 6
+scavengerDelayInitialMin: 300
+scavengerDelayInitialMax: 600
+scavengerDelayRepeatMin: 1500
+scavengerDelayRepeatMax: 1800
+pupSpawnChance: 0.1
+earlyCycleChance: 0
+earlyCycleFloodChance: 0

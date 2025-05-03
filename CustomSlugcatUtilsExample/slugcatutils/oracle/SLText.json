@@ -1,0 +1,77 @@
+{
+    "Slugcat": "Prototype",
+    "Oracle": "SL",
+    "Behaviors": [
+        {
+            "EnterTimes": 0,
+            "Events": [
+                {
+                    "Name": "PrototypeEnterSL"
+                },
+                {
+                    "Name": "PrototypeChatlogSL",
+                    "Loop": false,
+                    "Random": true,
+                    "MinWait": 50,
+                    "MaxWait": 80
+                }
+            ]
+        },
+        {
+            "EnterTimes": 1,
+            "Events": [
+                {
+                    "Name": "PrototypeEnterSL1"
+                },
+                {
+                    "Name": "PrototypeChatlogSL",
+                    "Loop": false,
+                    "Random": true,
+                    "MinWait": 50,
+                    "MaxWait": 80
+                }
+            ]
+        },
+        {
+            "EnterTimes": 2,
+            "Events": [
+                {
+                    "Name": "PrototypeEnterSL2"
+                },
+                {
+                    "Name": "PrototypeChatlogSL",
+                    "Loop": false,
+                    "Random": true,
+                    "MinWait": 50,
+                    "MaxWait": 80
+                }
+            ]
+        }
+    ],
+    "Conversations": {
+        "HoldNeuron": {
+            "Name": "PrototypeHoldNeuron"
+        },
+        "ReleaseNeuron": {
+            "Name": "PrototypeReleaseNeuron"
+        },
+        "DeadPlayer": {
+            "Name": "PrototypeDeadPlayer"
+        },
+        "Rain": {
+            "Name": "PrototypeRain"
+        },
+        "PlayerLeft": {
+            "Name": "PrototypePlayerLeft"
+        },
+        "Annoying": {
+            "Name": "PrototypeAnnoying"
+        },
+        "HoldingSSNeuronsGreeting": {
+            "Name": "PrototypeHoldingSSNeuronsGreeting"
+        },
+        "HalcyonStolen": {
+            "Name": "PrototypeHalcyonStolen"
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "Slugcat": "Prototype",
+    "Oracle": "DM",
+    "Behaviors": [
+        {
+            "EnterTimes": 0,
+            "Events": [
+                {
+                    "Name": "EnterDM"
+                },
+                {
+                    "Name": "ThrowOut_Throw_Out"
+                },
+                {
+                    "Name": "SPDMChatLog",
+                    "Loop": true,
+                    "Random": true,
+                    "MinWait": 5,
+                    "MaxWait": 10
+                }
+            ]
+        },
+        {
+            "EnterTimes": 1,
+            "Events": [
+                {
+                    "Name": "EnterDM1"
+                },
+                {
+                    "Name": "SPDMChatLog",
+                    "Loop": true,
+                    "Random": true,
+                    "MinWait": 5,
+                    "MaxWait": 10
+                }
+            ]
+        },
+        {
+            "Events": [
+                {
+                    "Name": "EnterDM1"
+                },
+                {
+                    "Name": "SPDMChatLog",
+                    "Loop": true,
+                    "Random": true,
+                    "MinWait": 5,
+                    "MaxWait": 10
+                }
+            ]
+        }
+    ]
+}
